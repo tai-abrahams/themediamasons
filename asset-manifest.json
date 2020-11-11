@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/themediamasons/static/css/main.be5649bf.chunk.css",
+    "main.js": "/themediamasons/static/js/main.e5f5f8b1.chunk.js",
+    "main.js.map": "/themediamasons/static/js/main.e5f5f8b1.chunk.js.map",
+    "runtime-main.js": "/themediamasons/static/js/runtime-main.376bb1e4.js",
+    "runtime-main.js.map": "/themediamasons/static/js/runtime-main.376bb1e4.js.map",
+    "static/js/2.2dfb2e7e.chunk.js": "/themediamasons/static/js/2.2dfb2e7e.chunk.js",
+    "static/js/2.2dfb2e7e.chunk.js.map": "/themediamasons/static/js/2.2dfb2e7e.chunk.js.map",
+    "index.html": "/themediamasons/index.html",
+    "static/css/main.be5649bf.chunk.css.map": "/themediamasons/static/css/main.be5649bf.chunk.css.map",
+    "static/js/2.2dfb2e7e.chunk.js.LICENSE.txt": "/themediamasons/static/js/2.2dfb2e7e.chunk.js.LICENSE.txt",
+    "static/media/MM_logo.bb6fbd9e.png": "/themediamasons/static/media/MM_logo.bb6fbd9e.png",
+    "static/media/apotek1.f2bbb140.jpg": "/themediamasons/static/media/apotek1.f2bbb140.jpg",
+    "static/media/apotek_agency.9e0eb2cc.png": "/themediamasons/static/media/apotek_agency.9e0eb2cc.png",
+    "static/media/liberty.77f9bbdc.jpg": "/themediamasons/static/media/liberty.77f9bbdc.jpg",
+    "static/media/making_people_free.4ecbe5b8.png": "/themediamasons/static/media/making_people_free.4ecbe5b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.376bb1e4.js",
+    "static/js/2.2dfb2e7e.chunk.js",
+    "static/css/main.be5649bf.chunk.css",
+    "static/js/main.e5f5f8b1.chunk.js"
+  ]
+}
