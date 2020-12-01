@@ -103,7 +103,7 @@ const App = () => {
     <div className="App">
       <Router>
         <Header />
-        <NavBar buttons={routes} />
+        <NavBar />
         <Switch>
         {
         routes.map(({name, path, content, Component}) => (

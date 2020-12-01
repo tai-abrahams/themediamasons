@@ -8,16 +8,16 @@ const NavBar = () => {
     const navbuttons = [
         {
           name: 'Home',
-          path: '/'
+          path: '/themediamasons/'
         }, {
           name:'Services',
-          path:'/services'
+          path:'/themediamasons/services'
         }, {
           name: 'Portfolio',
-          path: '/portfolio'
+          path: '/themediamasons/portfolio'
         }, {
           name: 'Contact Us',
-          path: '/contact'
+          path: '/themediamasons/contact'
         }
       ]
     return (
