@@ -112,12 +112,11 @@ const Contact = ({props, content}) => {
 
 
     return (
-        <div className="container-fluid d-flex" style={{backgroundColor: "#240e0e"}}>
-            <div className="d-flex row justify-content-md-center w-75 ml-5 text-white pt-5">
-                <form className="d-flex flex-column needs-validation" onSubmit={onSubmit}>
-                    <div className="d-flex mb-auto p-0">
-                            <div className="d-flex flex-column container w-50 p-0 mb-auto">
-                                
+        <div className="container col-12 pb-5" style={{backgroundColor: "#240e0e"}}>
+    
+                <form className="row needs-validation mt-5 p-0 col-12 col-md-6 ml-auto mr-auto" onSubmit={onSubmit}>
+                
+                            <ul className="col-12 col-sm-8 col-md-6 p-0 ml-auto mr-auto mb-0">
                                 <TextInput 
                                     name="name"
                                     label="name"
@@ -151,9 +150,9 @@ const Contact = ({props, content}) => {
                                     required={true}
                                     disable={disable()}
                                 />
-                            </div>
-                
-                            <ul className="d-flex flex-column container w-50 mb-auto">
+                            </ul>
+                            
+                            <ul className="col-12 col-sm-8 col-md-6 p-0 mb-auto mr-auto ml-auto">
                                 <TextInput 
                                     name="phone"
                                     label="phone"
@@ -188,33 +187,28 @@ const Contact = ({props, content}) => {
                                     disable={disable()}
                                 />
                             </ul>
-                    </div>
-                    <div className="d-flex container flex-column mb-auto mt-0 p-0">
-                        <ul className="d-flex flex-column container w-100 mb-auto pl-0">
-                            <li className="d-flex w-100">
-                                <label className="col-sm-2">Message:</label>
+                    
+                    <div className="col-12 col-sm-8 col-md-12 p-0 m-0 ml-auto mr-auto">
                                 <textarea
                                     value={allValues.message}
                                     name='message'
-                                    className="col-sm-10 rounded"
+                                    className="col-sm-12 rounded"
                                     style={{height:"200px"}}
                                     placeholder="Tell us what you're looking for..."
                                     onChange={onChange}
                                     disabled={disable()}
                                     />
-                            </li>
-                        </ul>
                     </div>
                     {
                         submit && <Notify success={submit} />
                     }
-                    <div className="d-flex container justify-content-end mt-4 mb-5">
-                        <input type="submit" disabled={disable()} className="btn btn-light bg-light" />
-
-                    </div>
+                    <div className="container col-12 col-sm-8 col-md-12 p-0 mr-auto ml-auto text-right">
                     
+                    <input type="submit" disabled={disable()} className="btn btn-light bg-light col-12 col-md-3" />
+                    
+                    </div>
                 </form>
-            </div>
+            
         </div>
     )
 }

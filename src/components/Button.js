@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Button = ({btn}) => {
     return (
-        <div className="pl-0">
-           <Link to={btn.path} >{btn.name}</Link>
-        </div>
+        <li className="nav-item active mt-auto mb-auto">
+           <a href={btn.path} className="nav-link text-primary pl-5 pr-5 text-center">{btn.name}</a>
+        </li>
     )
 }
 

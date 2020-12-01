@@ -1,20 +1,40 @@
 import React from 'react'
 import Button from './Button'
+import Link from 'react-router-dom'
 
 
-const NavBar = ({buttons}) => {
+const NavBar = () => {
+
+    const navbuttons = [
+        {
+          name: 'Home',
+          path: '/'
+        }, {
+          name:'Services',
+          path:'/services'
+        }, {
+          name: 'Portfolio',
+          path: '/portfolio'
+        }, {
+          name: 'Contact Us',
+          path: '/contact'
+        }
+      ]
     return (
-        <div className="container-fluid d-flex w-100 bg-gradient-light border-top border-bottom align-center">
-            <div className="d-flex row w-75 ml-5 justify-content-start pl-0">
-                {
-                buttons.map((button)=>(
-                    <div key={button.path} className="d-flex w-25 justify-content-start p-0">
+        <nav className="navbar navbar-expand-sm navbar-nav  navbar-light bg-gradient-light border border-top pt-2 pb-2">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto ml-auto">
+            {
+                navbuttons.map((button)=>(
                         <Button btn={button} />
-                    </div>
                 ))
                 }
+                </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 
