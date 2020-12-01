@@ -18,7 +18,7 @@ import './scss/custom.scss'
 const routes = [
   {
   name: 'Home',
-  path: '/',
+  path: '/themediamasons/',
   Component: Page,
   content: {
     text: `The Media Masons are a graphic design company specialising in many different areas of design and quickly deliver professional-grade productions.\nThe MediaMasons provide artwork for Print Web and Video. Here at The MediaMasons we listen to your needs and deliver to our best understandings, we are a very small organisation allowing us to form a personal relationship with each and every costumer we come in contact with, this enables us to get a better understanding into what you really need from us, giving us the ability to give our suggestions and in turn communicating our vision for the projects we engage in.\n
@@ -27,7 +27,7 @@ const routes = [
   },
   {
   name:'Services',
-  path:'/services',
+  path:'/themediamasons/services',
   Component: Page,
   content:{
     column:[
@@ -44,7 +44,7 @@ const routes = [
     }
     }, {
       name: 'Portfolio',
-      path: '/portfolio',
+      path: '/themediamasons/portfolio',
       Component: Page,
       content: {
         thumbnail: [{
@@ -61,10 +61,10 @@ const routes = [
       }
       }, {
         name: 'Contact Us',
-        path: '/contact',
+        path: '/themediamasons/contact',
         Component: Contact,
         }, {
-          path: '/portfolio/liberty',
+          path: '/themediamasons/portfolio/liberty',
           Component: Page,
           content:{
             portfolioColumn:[
@@ -78,7 +78,7 @@ const routes = [
             ]
           }
           }, {
-              path:'/portfolio/apotek',
+              path:'/themediamasons/portfolio/apotek',
               Component: Page,
               content:{
                 portfolioColumn:[
