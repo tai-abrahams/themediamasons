@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/themediamasons/static/css/main.e5bb3cf8.chunk.css",
-    "main.js": "/themediamasons/static/js/main.6045b28a.chunk.js",
-    "main.js.map": "/themediamasons/static/js/main.6045b28a.chunk.js.map",
+    "main.js": "/themediamasons/static/js/main.4f967a27.chunk.js",
+    "main.js.map": "/themediamasons/static/js/main.4f967a27.chunk.js.map",
     "runtime-main.js": "/themediamasons/static/js/runtime-main.376bb1e4.js",
     "runtime-main.js.map": "/themediamasons/static/js/runtime-main.376bb1e4.js.map",
     "static/js/2.97d2a229.chunk.js": "/themediamasons/static/js/2.97d2a229.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.376bb1e4.js",
     "static/js/2.97d2a229.chunk.js",
     "static/css/main.e5bb3cf8.chunk.css",
-    "static/js/main.6045b28a.chunk.js"
+    "static/js/main.4f967a27.chunk.js"
   ]
 }
