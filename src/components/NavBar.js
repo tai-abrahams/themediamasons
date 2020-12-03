@@ -11,13 +11,13 @@ const NavBar = () => {
           path: '/themediamasons/'
         }, {
           name:'Services',
-          path:'/themediamasons/services'
+          path:'/themediamasons/services/'
         }, {
           name: 'Portfolio',
-          path: '/themediamasons/portfolio'
+          path: '/themediamasons/portfolio/'
         }, {
           name: 'Contact Us',
-          path: '/themediamasons/contact'
+          path: '/themediamasons/contact/'
         }
       ]
     return (
@@ -29,7 +29,7 @@ const NavBar = () => {
             <ul className="navbar-nav mr-auto ml-auto">
             {
                 navbuttons.map((button)=>(
-                        <Button btn={button} />
+                        <Button key={button.name} btn={button} />
                 ))
                 }
                 </ul>

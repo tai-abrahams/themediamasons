@@ -27,7 +27,7 @@ const routes = [
   },
   {
   name:'Services',
-  path:'/themediamasons/services',
+  path:'/themediamasons/services/',
   Component: Page,
   content:{
     column:[
@@ -44,27 +44,27 @@ const routes = [
     }
     }, {
       name: 'Portfolio',
-      path: '/themediamasons/portfolio',
+      path: '/themediamasons/portfolio/',
       Component: Page,
       content: {
         thumbnail: [{
           id:1,
           title: 'Apotek Agency',
           img: Apotek,
-          path:'/portfolio/apotek'
+          path:'/themediamasons/portfolio/apotek/'
           }, {
             id:2,
             title: 'Liberty',
             img: Liberty,
-            path: '/portfolio/liberty'
+            path: '/themediamasons/portfolio/liberty/'
         }]
       }
       }, {
         name: 'Contact Us',
-        path: '/themediamasons/contact',
+        path: '/themediamasons/contact/',
         Component: Contact,
         }, {
-          path: '/themediamasons/portfolio/liberty',
+          path: '/themediamasons/portfolio/liberty/',
           Component: Page,
           content:{
             portfolioColumn:[
@@ -78,7 +78,7 @@ const routes = [
             ]
           }
           }, {
-              path:'/themediamasons/portfolio/apotek',
+              path:'/themediamasons/portfolio/apotek/',
               Component: Page,
               content:{
                 portfolioColumn:[
@@ -101,19 +101,23 @@ const routes = [
 const App = () => {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/themediamasons/">
+        <>
         <Header />
         <NavBar />
+        <div>
         <Switch>
         {
-        routes.map(({name, path, content, Component}) => (
+        routes.map(({path, content, Component}) => (
           
-            <Route exact key={path} path={path} >
+            <Route key={path} exact path={path} >
                 <Component key={path} content={content} />
             </Route>
         ))
         }
-        </Switch>
+        </Switch> 
+        </div>
+        </>
       </Router>
     </div>
   );
