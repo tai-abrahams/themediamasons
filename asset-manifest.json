@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/themediamasons/static/css/main.e5bb3cf8.chunk.css",
-    "main.js": "/themediamasons/static/js/main.6388ebe9.chunk.js",
-    "main.js.map": "/themediamasons/static/js/main.6388ebe9.chunk.js.map",
+    "main.js": "/themediamasons/static/js/main.e337f961.chunk.js",
+    "main.js.map": "/themediamasons/static/js/main.e337f961.chunk.js.map",
     "runtime-main.js": "/themediamasons/static/js/runtime-main.376bb1e4.js",
     "runtime-main.js.map": "/themediamasons/static/js/runtime-main.376bb1e4.js.map",
-    "static/js/2.2b901516.chunk.js": "/themediamasons/static/js/2.2b901516.chunk.js",
-    "static/js/2.2b901516.chunk.js.map": "/themediamasons/static/js/2.2b901516.chunk.js.map",
+    "static/js/2.70744e72.chunk.js": "/themediamasons/static/js/2.70744e72.chunk.js",
+    "static/js/2.70744e72.chunk.js.map": "/themediamasons/static/js/2.70744e72.chunk.js.map",
     "index.html": "/themediamasons/index.html",
     "static/css/main.e5bb3cf8.chunk.css.map": "/themediamasons/static/css/main.e5bb3cf8.chunk.css.map",
-    "static/js/2.2b901516.chunk.js.LICENSE.txt": "/themediamasons/static/js/2.2b901516.chunk.js.LICENSE.txt",
+    "static/js/2.70744e72.chunk.js.LICENSE.txt": "/themediamasons/static/js/2.70744e72.chunk.js.LICENSE.txt",
     "static/media/MM_logo.bb6fbd9e.png": "/themediamasons/static/media/MM_logo.bb6fbd9e.png",
     "static/media/apotek1.f2bbb140.jpg": "/themediamasons/static/media/apotek1.f2bbb140.jpg",
     "static/media/apotek_agency.9e0eb2cc.png": "/themediamasons/static/media/apotek_agency.9e0eb2cc.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.376bb1e4.js",
-    "static/js/2.2b901516.chunk.js",
+    "static/js/2.70744e72.chunk.js",
     "static/css/main.e5bb3cf8.chunk.css",
-    "static/js/main.6388ebe9.chunk.js"
+    "static/js/main.e337f961.chunk.js"
   ]
 }
